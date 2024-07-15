@@ -60,6 +60,7 @@ public class AppleAndOrange {
         int m = Integer.parseInt(thirdMultipleInput[0]);
 
         int n = Integer.parseInt(thirdMultipleInput[1]);
+        
 
         List<Integer> apples = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
